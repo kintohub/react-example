@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# KintoHub react-example
 
-## Available Scripts
+## Overview
+React is a JavaScript **library** for building user interfaces. It is the view layer for web applications.
 
-In the project directory, you can run:
+[Live Example](https://react-example-1d0d2-8caf9.web.master.kintohub.com/)
 
-### `yarn start`
+__About KintoHub:__
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+KintoHub aligns teams to ship & operate cloud native apps with ease. [Learn More](https://www.kintohub.com)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Deployment
+1. Apply this template to your [Github](https://github.com/kintohub/react-example/generate)
+2. Connect your GithubApp to KintoHub.
+3. Create a [Static Website from Build](https://docs.kintohub.com/docs/kintoblocks/websites) on KintoHub and select the Repository you just generated on your account.
+4. Set the **name** of your kinto block
+5. Choose `Node.js` as the **language** and `13.1-alpine` as the **version**
+6. Set the **Build Command** as `npm install && npm run build`
+7. Set the **Build Folder** as `/build`
 
-### `yarn test`
+You're now good to go! Click **Create Website** and then on your Master branch click `Build Latest Commit`.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once complete, Click  Now click `Add To Project`.
+And now you're ready to go live Click `Deploy` and once done -> you can view your website by clicking `Open`
 
-### `yarn build`
+## Installation & Local Run
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+``` bash
+# install dependencies
+npm install
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# run dev server with hot reload at localhost:3000
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# build for production with minification
+npm run build
+```
 
-### `yarn eject`
+For a detailed explanation on how things work, check out the [guide](https://reactjs.org/).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Test
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# run all tests
+npm test
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## What's Next?
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You can do a lot with KintoHub and your deployed application. Some helpful links for next steps that you may consider with this project.
 
-## Learn More
+* [Creating multiple environments](https://docs.kintohub.com/docs/projects/environments)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Happy coding!
